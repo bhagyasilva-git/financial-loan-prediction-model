@@ -3,7 +3,7 @@
 
 📖 Project Description
 
-Although implemented in Jupyter Notebooks, the project is fully built using Python and standard machine learning libraries.This project applies machine learning techniques to analyze client financial data and solve two key problems in banking risk analysis:
+Implemented in Jupyter Notebooks, the project is fully built using Python and standard machine learning libraries.This project applies machine learning techniques to analyze client financial data and solve two key problems in banking risk analysis:
 
 
 Loan Approval Prediction (Classification)
