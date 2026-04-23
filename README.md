@@ -46,11 +46,11 @@ Decision Tree Regressor (Pruned)
 
 4. Model evaluation using:
 
-* Accuracy
-* Recall
-* F1-score
-* AUC-ROC
-* MSE, MAE, R²
+  * Accuracy
+  * Recall
+  * F1-score
+  * AUC-ROC
+  * MSE, MAE, R²
 
 5. Hyperparameter tuning using GridSearchCV
 
