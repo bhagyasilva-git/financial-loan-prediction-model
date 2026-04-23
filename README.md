@@ -1,138 +1,127 @@
- **Loan Approval Prediction & Maximum Loan Amount Estimation using Machine Learning**
+**Loan Approval Prediction & Maximum Loan Amount Estimation using Machine Learning**
 
----
 
-##  Project Description
+**Project Description**
 
-This project is implemented using **Python in Jupyter Notebooks** and standard machine learning libraries. It applies supervised learning techniques to analyze client financial data and address two critical problems in **banking risk analysis**:
+Implemented in Jupyter Notebooks, the project is fully built using Python and standard machine learning libraries.This project applies machine learning techniques to analyze client financial data and solve two key problems in banking risk analysis:
 
-### Loan Approval Prediction (Classification)
 
-* Predicts whether a client’s loan application should be **Approved** or **Rejected**
-* Helps financial institutions reduce lending risk by identifying high-risk applicants
+Loan Approval Prediction (Classification)
 
-### Maximum Loan Amount Prediction (Regression)
+Predict whether a client’s loan application should be Approved or Rejected
 
-* Estimates the **maximum loan amount** that can be safely offered to approved clients
-* Supports optimized lending decisions and effective risk control
+Helps reduce financial risk by identifying high-risk applicants
 
-The project integrates **data preprocessing**, multiple **classification and regression models**, and **ensemble learning** techniques to improve prediction accuracy and reliability.
+Maximum Loan Amount Prediction (Regression)
 
----
+Estimate the maximum loan amount a bank can safely offer to approved clients
 
-##  Machine Learning Models Used
+Supports optimized lending decisions and risk control
 
-### Classification Models
 
-* Logistic Regression (LR)
-* K-Nearest Neighbors (KNN)
-* Naïve Bayes (NB)
-* Voting Ensemble (LR + KNN)
+The project combines data preprocessing, classification models (LR, KNN, NB), regression models (Decision Trees), and ensemble learning to improve prediction reliability.
 
-### Regression Models
 
-* Decision Tree Regressor (Fully Grown)
-* Decision Tree Regressor (Pruned)
+**Machine Learning Models Used**
 
----
+**Classification Models**
 
-##  Key Features
+Logistic Regression (LR)
+K-Nearest Neighbors (KNN)
+Naïve Bayes (NB)
+Voting Ensemble (LR + KNN)
 
-* Data cleaning and preprocessing (handling missing values, encoding, and outliers)
-* Feature selection based on financial relevance
-* Train-test split with stratification
-* Model evaluation using:
+**Regression Models**
 
-  * Accuracy
-  * Recall
-  * F1-score
-  * AUC-ROC
-  * Mean Squared Error (MSE)
-  * Mean Absolute Error (MAE)
-  * R² Score
-* Hyperparameter tuning using **GridSearchCV**
-* Ensemble learning using probability-based voting
+Decision Tree Regressor (Fully grown)
+Decision Tree Regressor (Pruned)
 
----
+**Key Features**
 
-##  How to Run the Project
+Data cleaning and preprocessing (missing values, encoding, outliers)
 
-### Option 1: Run in Google Colab (Recommended)
+Feature selection based on financial relevance
 
-1. Open Google Colab: [https://colab.research.google.com/](https://colab.research.google.com/)
-2. Upload the following notebooks:
+Train-test split with stratification
 
-   * Notebook 1: Data Preprocessing
-   * Notebook 2: Classification Models
-   * Notebook 3: Regression Models
-3. Upload the dataset file: `loan_approval_data.csv`
-4. Run the notebooks step-by-step in order
+Model evaluation using:
 
-### Option 2: Run Locally
+Accuracy
+Recall
+F1-score
+AUC-ROC
+MSE, MAE, R²
 
-1. Install Python (version 3.8 or higher recommended)
-2. Install required all libraries include:
+Hyperparameter tuning using GridSearchCV
 
-   ```
-   pip install pandas numpy scikit-learn matplotlib seaborn
-   ```
-3. Open Jupyter Notebook:
+Ensemble learning using probability-based voting
 
-   ```
-   jupyter notebook
-   ```
-4. Run the notebooks sequentially
 
----
 
-##  Important Notes
+**How to Run the Project**
 
-* Always run **Notebook 1** first for data cleaning and preprocessing
-* Ensure the dataset is uploaded before running any models
-* Use the same train-test split across models for fair comparison
-* GridSearchCV is used to improve and optimize model performance
+**Option 1: Run in Google Colab (Recommended)**
 
----
+Open Google Colab: https://colab.research.google.com/
 
-##  Key Results Summary
+Upload the three notebooks:
 
-### Best Classification Model
+Notebook 1 (Data Preprocessing)
 
-* **KNN (k = 5)**
-* Achieved high recall for rejected loans
-* Provided a strong balance between precision and risk reduction
+Notebook 2 (Classification Models)
 
-### Best Regression Model
+Notebook 3 (Regression Models)
 
-* **Pruned Decision Tree (max depth ≈ 4–5)**
-* Lower MSE compared to the fully grown tree
-* Better generalization for loan amount prediction
+Upload the dataset file (loan_approval_data.csv)
 
----
+Run notebooks step-by-step in order
 
-##  Limitations
+**Option 2: Run Locally**
 
-* KNN is computationally expensive for large datasets
-* Decision Trees may still overfit without careful pruning
-* Some financial features may introduce bias if not critically evaluated
+Install Python (3.8+ recommended)
 
----
+Install required libraries:
+pip install pandas numpy scikit-learn matplotlib seaborn
+Open Jupyter Notebook:
+jupyter notebook
+Run notebooks in sequence
 
-##  Ethical Considerations
+**Important Notes**
 
-* Potential bias arising from sensitive financial attributes
-* Limited explainability in certain models (especially KNN)
-* Automated decisions should always be complemented by human review
+Always run Notebook 1 first (data cleaning & preprocessing)
 
----
+Ensure dataset is uploaded before running models
 
-## 👤 Author Contribution
+Use same train-test split for fair model comparison
 
-* End-to-end machine learning pipeline development
-* Data preprocessing and feature engineering
-* Model training, evaluation, and optimization
-* Hyperparameter tuning and ensemble modeling
-* Documentation, analysis, and reporting
+GridSearchCV is used to improve model performance
 
----
+
+**Limitations**
+
+KNN is computationally expensive for large datasets
+
+Decision Trees may still overfit without careful pruning
+
+Some features may introduce bias if not carefully evaluated
+
+**Ethical Considerations**
+
+Risk of bias from sensitive financial attributes
+
+Lack of explainability in some models (especially KNN)
+
+Automated decisions should always include human review
+
+**👤 Author Contribution**
+
+Machine learning pipeline development
+
+Data preprocessing & feature engineering
+
+Model training, evaluation, and optimization
+
+Hyperparameter tuning and ensemble modeling
+
+Documentation, reporting, and analysis write-up
 
