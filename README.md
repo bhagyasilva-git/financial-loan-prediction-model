@@ -6,17 +6,17 @@
 Implemented in Jupyter Notebooks, the project is fully built using Python and standard machine learning libraries.This project applies machine learning techniques to analyze client financial data and solve two key problems in banking risk analysis:
 
 
-Loan Approval Prediction (Classification)
+* Loan Approval Prediction (Classification)
 
-Predict whether a client’s loan application should be Approved or Rejected
+* Predict whether a client’s loan application should be Approved or Rejected
 
-Helps reduce financial risk by identifying high-risk applicants
+* Helps reduce financial risk by identifying high-risk applicants
 
-Maximum Loan Amount Prediction (Regression)
+* Maximum Loan Amount Prediction (Regression)
 
-Estimate the maximum loan amount a bank can safely offer to approved clients
+* Estimate the maximum loan amount a bank can safely offer to approved clients
 
-Supports optimized lending decisions and risk control
+* Supports optimized lending decisions and risk control
 
 
 The project combines data preprocessing, classification models (LR, KNN, NB), regression models (Decision Trees), and ensemble learning to improve prediction reliability.
@@ -38,23 +38,23 @@ Decision Tree Regressor (Pruned)
 
 **Key Features**
 
-Data cleaning and preprocessing (missing values, encoding, outliers)
+1. Data cleaning and preprocessing (missing values, encoding, outliers)
 
-Feature selection based on financial relevance
+2. Feature selection based on financial relevance
 
-Train-test split with stratification
+3. Train-test split with stratification
 
-Model evaluation using:
+4. Model evaluation using:
 
-Accuracy
-Recall
-F1-score
-AUC-ROC
-MSE, MAE, R²
+* Accuracy
+* Recall
+* F1-score
+* AUC-ROC
+* MSE, MAE, R²
 
-Hyperparameter tuning using GridSearchCV
+5. Hyperparameter tuning using GridSearchCV
 
-Ensemble learning using probability-based voting
+6. Ensemble learning using probability-based voting
 
 
 
@@ -88,13 +88,13 @@ Run notebooks in sequence
 
 **Important Notes**
 
-Always run Notebook 1 first (data cleaning & preprocessing)
+* Always run Notebook 1 first (data cleaning & preprocessing)
 
-Ensure dataset is uploaded before running models
+* Ensure dataset is uploaded before running models
 
-Use same train-test split for fair model comparison
+* Use same train-test split for fair model comparison
 
-GridSearchCV is used to improve model performance
+* GridSearchCV is used to improve model performance
 
 
 **Limitations**
